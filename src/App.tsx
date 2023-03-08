@@ -1,7 +1,12 @@
+import './App.css'
 import Category from './components/Category'
 
 function App() {
-  return <Category />
+  return (
+    <div>
+      <Category />
+    </div>
+  )
 }
 
 export default App

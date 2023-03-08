@@ -1,46 +1,53 @@
-import React from 'react'
 import CategoryItem from './CategoryItem'
 
 const arr = [
   {
     id: 1,
     business: 'Business Development',
-    available: 1069
+    available: 1069,
+    iconName:'category1'
   },
   {
     id: 2,
     business: 'Customer Support',
-    available: 1069
+    available: 1069,
+    iconName:'category2'
   },
   {
     id: 3,
     business: 'Marketing & Communication',
-    available: 1069
+    available: 1069,
+    iconName:'category3'
   },
   {
     id: 4,
     business: 'Sport  & Media',
-    available: 1069
+    available: 1069,
+    iconName:'category4'
   },
   {
     id: 5,
     business: 'Design & Development',
-    available: 1069
+    available: 1069,
+    iconName:'category5'
   },
   {
     id: 6,
     business: 'Business  & Consulting',
-    available: 1069
+    available: 1069,
+    iconName:'category6'
   },
   {
     id: 7,
     business: 'Human Resources',
-    available: 1069
+    available: 1069,
+    iconName:'category7'
   },
   {
     id: 8,
     business: 'IT & Software Development',
-    available: 1069
+    available: 1069,
+    iconName:'category8'
   }
 ]
 
@@ -57,6 +64,7 @@ function Category() {
               key={item.id}
               business={item.business}
               available={item.available}
+              iconName={item.iconName}
             />
           )
         })}
